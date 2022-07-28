@@ -1,0 +1,158 @@
+section > .connec{
+    background: url(./images/bg2.jpeg) no-repeat center center ;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+}
+.connec-title p{
+    font-size: 2.5rem;
+    color: #fff;
+    
+    padding:45px 60px ;
+}
+
+.top-form input, .top-form label{
+    
+    margin: 5px auto;
+    font-size: 1rem;
+    
+
+}
+form{
+    max-width: 550px;
+    margin: 20px auto;
+   
+    padding: 50px 70px;
+    display: block;
+    background: #df202023;
+}
+.input{
+    
+    padding:10px 12px;
+    
+    background:inherit;
+    border: .5px solid black;
+
+}
+input.input{
+  margin-bottom: 15px ;
+}
+.input:focus{
+    border: .5px solid black;
+    background: #fff;
+}
+.login-form button{
+    display: block;
+    margin: 0px auto;
+    margin-top: 40px;
+    background: #df2020;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.input{
+    display: block;
+    width:100% ;
+    
+}
+.radio-section{
+    margin-top: 10px;
+}
+.radio-section label {
+    margin:7px  0;
+    margin-right: 7px;
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .jourvance{
+    margin-left: 6px !important;
+  }
+.radio-section  input {
+    height: 1px;
+    width: 1px;
+    opacity: 0;
+  }
+  .check{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px ;
+  }
+  .checkbox{
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    background: #df2020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-link{
+    margin-bottom: 80px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .login-link a{
+    text-decoration: none;
+    color: black;
+  }
+  input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    accent-color: white;
+    
+    clip-path: circle(46% at 50% 50%); 
+  }
+.outside {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -10px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #df2020;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: none;
+  }
+  
+.inside {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: inline-block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #df2020;
+    left: 3px;
+    top: 3px;
+    -webkit-transform: scale(0, 0);
+            transform: scale(0, 0);
+  }
+.no-transforms .inside {
+    left: auto;
+    top: auto;
+    width: 0;
+    height: 0;
+  }
+  .radio-section input:checked + .outside .inside {
+    -webkit-animation: radio-select 0.1s linear;
+            animation: radio-select 0.1s linear;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+ .no-transforms input:checked + .outside .inside {
+    width: 10px;
+    height: 10px;
+  }
+  

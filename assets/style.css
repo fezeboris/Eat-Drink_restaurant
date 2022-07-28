@@ -1,0 +1,602 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.body{
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+nav{
+    /* margin: 2px 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-ul{
+    display: flex;
+}
+.nav-ul li{
+    
+    margin: 0 30px;
+    font-weight: bold;
+    list-style: none;  
+}
+.nav-ul li a:hover{
+   
+    color: #df2020;
+    
+    transition: 1s ease-in-out;
+    
+}
+.nav-ul li a{
+    padding:5px 10px;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+}
+
+.logo-name{
+    font-weight: bold;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.user img{
+    width: 1.5rem;
+    margin: 0 10px;
+}
+.user1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sup{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+    border-radius: 50%;
+    background: #df2020;
+    color: #fff;
+}
+.first-section{
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.commande{
+    width: 50%;
+}
+.commande-img{
+    width: 40%; 
+}
+.commande-heading{
+    font-size: 1.5rem;
+    margin-bottom: 30px ;
+}
+.faim{
+    color: #df2020;
+    font-weight: bold;
+    font-size: 30px; 
+}
+.attendez{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+.commande-img{
+    width: 50%;
+}
+.commande-img img{
+    width: 100%;
+}
+.commande-btn{
+    display: flex;
+    font-size: 1rem;
+    padding:10px 15px;
+    background: #df2020;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    outline: none;
+    margin: 30px 0;
+    align-items: center;
+    cursor: pointer;
+}
+.commande-btn:hover{
+    background: #212245;
+    border: .5px solid #df202050;;
+    transition: 2s ease-in-out;
+}
+
+.chevron-right{
+    color: red;
+}
+.commande-btn img{
+    margin-left: 3px; 
+   width: .8rem;
+   color: white;
+}
+.livraison{
+    display: flex; 
+}
+.livraison-icon{
+    background: #df2020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-right:10px ;
+    border-radius: 50%;
+}
+
+.livraison1{
+    display: flex;
+    margin-right:15px ;
+    justify-content: center;
+    align-items: center;
+}
+.burger-section{
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-burger{
+    display: none;
+
+}
+.burger{
+    display: flex;
+    align-items: center;
+    background: #df202050;
+    padding: 10px;
+    font-weight: 400;
+    border-radius: 10px;
+    width: 220px;
+}
+.burger:hover{
+    transform: translateY(-18px);
+    transition: 1s ease-in-out;
+}
+.burger img{
+    margin-left: 20px;
+    width: 35px;
+    margin-right: 20px;
+}
+.serving-section{
+    margin-top: 50px;
+    text-align: center;
+}
+.serving-details{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 17px;
+    margin-top: 10px;
+    font-size: #f0f0f0;
+}
+
+.serving-section .h1{
+    font-size: 28px;
+    color: #df2020;
+}
+.serving-section .h2{
+    font-size: 25px;
+    /* font-weight: bold; */
+}
+
+.serving{
+    margin-top: 60px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+.serving-agent{
+    width: 300px;
+    margin: 15px auto;
+}
+.serving-agent img{
+    width: 100px;
+}
+.serving-header-details{
+    margin-top: 20px;
+    text-align: center;
+}
+.popular-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 15px;
+    background: #df2020;
+    padding: 20px;
+}
+.popular-bar div{
+    margin: 0px 30px;
+}
+.all{
+    background: white;
+    padding: 7px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.all2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 15px;
+    color: white;
+    border-radius: 10px;
+}
+.all2:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 7px 15px;
+    border-radius: 10px;
+    transition: .5s ease-in;
+    color:#000;
+    cursor: pointer;
+}
+.all2 img{
+    width: 20px;
+    margin-right: 10px;
+}
+.chicken-container{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: center;
+    justify-content: space-between;
+}
+.chicken-burger{
+    display: flex;
+    padding:5px 20px;
+    border: 1px solid #df2020;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin: 10px 0px;
+    width: 300px;
+    /* width: 30%; */
+}
+
+
+.chicken-burger img{
+
+    width: 150px;
+    margin: 15px 0;
+}
+.chicken-burger img:hover {
+    transition: 1s ease-in-out;
+    border: none;
+    width: 170px;
+    transform: translateY(-15px);
+   
+  }
+.burger-price{
+    display: flex;
+    margin:15px 0px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.price-btn{
+    background: #df2020;
+    color: white;
+    cursor: pointer;
+    padding: 8px 15px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.price-btn:hover{
+    background: #ac1111;
+}
+.drink-container{
+    margin: 30px 0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+
+}
+.cocacola{
+    display: flex;
+    padding:5px 10px;
+    border: 1px solid #df2020;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    width: 250px;
+
+}
+.cocacola:hover {
+    transition: 1s ease-in-out;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    transform: translateY(-15px);
+   
+  }
+
+.cocacola img{
+    width: 150px;
+
+}
+.cocacola.drink img{
+    margin-top: 30px;
+}
+.cocacola.drink.fanta img{
+    width: 220px;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+    /* align-items: center; */
+}
+footer{
+    padding: 40px ;
+    background: #df202023;
+}
+.footer-container{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+.footer-logo img{
+    width: 50px;
+}
+.footer-item{
+    width: 230px;
+}
+.footer-details{
+    font-size: 12px;
+}
+
+
+.footer-item input{
+    background: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    height: 35px;
+}
+
+.footer-bottom{
+    border-bottom: .5px solid grey;
+    padding: 30px 0;
+}
+.suivre{
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.suivre a i{
+   padding:7px; 
+   margin:0px 10px;   
+   border-radius:50%;
+    text-decoration: none;
+    background: #df2020;
+    color: #fff;
+    text-align: center;
+}
+.suivre a:hover{
+    color: lightblue;
+}
+.mobile-menu{
+    display: none;
+}
+@media screen and (max-width:  768px) {
+    .logo img{
+        width: 50px;
+    }
+    .user img{
+        width: 1.5rem;
+        margin: 0 10px;
+    }
+
+     .chicken-burger{
+        /* max-width: 420px; */
+        max-height: 300px;
+        height: 420px;
+        margin: 20px auto;
+    }
+    .chicken-burgerr{
+        
+        margin: 10px auto !important;
+        width: 230px !important;
+    }
+    .search-food{
+        margin-top: 30px !important;
+      }
+      .search-food input{
+        border: .5px solid #df2020 !important;
+        padding: 10px 40px 10px 30px !important;
+        outline: .5px solid #df202023 !important;
+        
+      }
+
+      .repas-btn a{
+       
+        margin: 0px 10px 30px 10px !important;
+      
+        font-size: 8px !important;
+     
+        padding: 8px 20px !important;
+
+      }
+    .cocacola{
+        margin: 10px auto;
+    }
+    .nav-ul{
+        display: none;
+    }
+    footer{
+        width:100vw
+    }
+    .footer-container{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+        justify-content: space-between;
+        /* align-items: center; */
+
+    }
+    .serving-details{
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 17px;
+        margin-top: 10px;
+        font-size: #f0f0f0;
+    }
+    .first-section{
+        margin: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .commande{
+        width: 90%;
+    }
+    .commande-img{
+        width: 90%; 
+    }
+    .commande-btn{
+        margin: 30px auto;
+    }
+    .commande-heading{
+        font-size: 1.5rem;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .faim{
+        text-align: center; 
+    }
+    .attendez{
+        text-align: center; 
+    }
+    .livraison{
+        font-size: .7rem;
+    }
+    .livraison1{
+        display: flex;
+        margin-right:12px ;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-burger{
+        display: block;
+
+    }
+    .burger-section-mobile{
+        display: flex;
+        justify-content: space-between;
+    }
+    .burger-section{
+        display: none;
+    }
+    .burger-mobile{
+        display: flex;
+        align-items: center;
+        background: #df202050;
+        padding: 5px;
+        font-weight: 400;
+        margin: 10px auto;
+        font-size: .8rem;
+        border-radius: 10px;
+        width: 150px;
+    }
+    .burger-mobile img{
+        margin-left: 10px;
+        width: 25px;
+        margin-right: 8px;
+    }
+    .popular-bar{
+        display: flex;
+        max-width: 750px;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        margin: 20px 0;
+        border-radius: 15px;
+        background: #df2020;
+        padding:t 10px;
+    }
+    .popular-bar div{
+        margin: 0px 8px;
+    }
+    .all{
+        background: white;
+        padding: 7px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .all2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        color: white;
+    }
+    .all2 img{
+        width: 20px;
+        margin-right: 2px;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .footer-item input{
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        padding: 10px 30px;
+        height: 35px;
+        width: 80vw;
+    }
+}
+

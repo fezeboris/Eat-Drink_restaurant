@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": "00",
+      "title": "Salade",
+      "price": 2000,
+      "img": "product_0.jpg",
+      "category": "Salade",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. "
+    },
+    {
+      "id": "01",
+      "title": "Chicken Burger",
+      "price": 2500,
+      "img": "product_1.jpg",
+      "category": "Burger",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. "
+    },
+    {
+      "id": "02",
+      "title": "Vegetarian Pizza",
+      "price": 1000,
+      "img": "product_2.jpg",
+      "category": "Pizza",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque."
+    },
+    {
+      "id": "03",
+      "title": "Double Cheese Margherita",
+      "price": 1500,
+      "img": "product_3.jpg",
+      "category": "Pizza",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque."
+    },
+    {
+      "id": "04",
+      "title": "Maxican Green Wave",
+      "price": 1500,
+      "img": "product_4.jpg",
+      "category": "Pizza",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque."
+    },
+    {
+      "id": "05",
+      "title": "Seafood Pizz",
+      "price": 1500,
+      "img": "product_5.jpg",
+      "category": "Burger",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque."
+    },
+    {
+      "id": "08",
+      "title": "Thin Cheese Pizza",
+      "price": 2000,
+      "img": "product_6.jpg",
+      "category": "Pizza",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque."
+    },
+    {
+      "id": "09",
+      "title": "Pizza With Mushroom",
+      "price": 2500,
+      "img": "product_7.jpg",
+      "category": "Pizza",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque."
+    },
+    {
+      "id": "10",
+      "title": "Cake",
+      "price": 3000,
+      "img": "product_10.jpg",
+      "category": "Cake",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque."
+    },
+    {
+      "id": "11",
+      "title": "Cake",
+      "price": 3000,
+      "img": "product_11.jpg",
+      "category": "Cake",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque."
+    },
+    {
+      "id": "12",
+      "title": "Pizza Freeze",
+      "price": 2000,
+      "img": "product_12.jpg",
+      "category": "Cake",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque."
+    },
+    {
+      "id": "13",
+      "title": "Wine",
+      "price": 1500,
+      "img": "product_13.jpg",
+      "category": "Wine",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque."
+    }
+  ]
+}
