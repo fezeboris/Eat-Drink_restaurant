@@ -99,7 +99,7 @@ input.input{
   }
   .login-link a{
     text-decoration: none;
-    color: black;
+    color: #df2020;
   }
   input[type="checkbox"]{
     width: 15px;
