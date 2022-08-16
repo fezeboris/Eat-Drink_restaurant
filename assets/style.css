@@ -298,7 +298,7 @@ nav{
     margin: 15px 0;
 }
 .chicken-burger img:hover {
-    transition: 1s ease-in-out;
+    transition: 1s ;
     border: none;
     width: 170px;
     transform: translateY(-15px);

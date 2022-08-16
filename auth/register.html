@@ -68,30 +68,40 @@
       </div>
     </section>
     <section class="login-form">
-      <form action="" class="register-form">
+      <form action="#" class="register-form" name="registrationForm">
         <div class="top-form">
-          <label for="name" name="name">Prenom</label>
-          <input class="input" type="text" />
+          <label for="lname" name="name">Prenom</label>
+          <input class="input" type="text" id="lname" name="lname" />
+<p class='errorPara' id='lnameError'></p>
+
           <label for="name" name="name">Nom</label>
-          <input class="input" type="text" />
+          <input class="input" id="fname" type="text" />
+          <p class='errorPara' id='fnameError'></p>
           <label for="email" name="email">E-mail</label>
-          <input class="input" type="email" />
+          <input class="input" type="email" id="email" required/>
+          <p class='errorPara' id='emailErr'></p>
           <label for="password" name="password">Mot de passe </label>
-          <input class="input" type="password" />
+          <input class="input" type="password" id="password" />
+          <p class='errorPara' id='passErr'></p>
           <label for="password" name="password"
             >Confirmation du Mot de passe
           </label>
-          <input class="input" type="password" />
+<input class='input' type='password' id='confPassword' />
+
+<p class='errorPara' id='conpassErr'></p>
+
           <label for="ville"
             >Vous residez dans quel quartier de la ville de Yaounde ?</label
           >
         </div>
-        <div class="radio-section">
+        <div class="radio-section" id="radio-section">
           <label
             ><input
+            checked
               type="radio"
               class="radio-inline"
               name="town"
+              id="bastos"
               value="Bastos"
             /><span class="outside"><span class="inside"></span></span
             >Bastos</label
@@ -100,6 +110,7 @@
             ><input
               type="radio"
               class="radio-inline"
+              id="mendon"
               name="town"
               value="Mendon"
             /><span class="outside"><span class="inside"></span></span
@@ -110,6 +121,7 @@
               type="radio"
               class="radio-inline"
               name="town"
+              id="odza"
               value="Odza"
             /><span class="outside"><span class="inside"></span></span
             >Odza</label
@@ -120,6 +132,7 @@
               class="radio-inline"
               name="town"
               value="Ngoa"
+              id="ngoa"
             /><span class="outside"><span class="inside"></span></span
             >Ngoa</label
           >
@@ -129,6 +142,7 @@
               class="radio-inline"
               name="town"
               value="Essos"
+              id="essos"
             /><span class="outside"><span class="inside"></span></span
             >Essos</label
           >
@@ -138,6 +152,7 @@
               type="radio"
               class="radio-inline"
               name="town"
+              id="jourvance"
               value="Montee jourvance"
             /><span class="outside"><span class="inside"></span></span>Montee
             jourvance</label
@@ -161,7 +176,7 @@
           </div>
         </div>
 
-        <button type="submit">Inscription</button>
+        <button type="submit" id="submit">Inscription</button>
       </form>
       <div class="login-link">
         <span>
@@ -235,5 +250,6 @@
         </div>
       </div>
     </footer>
+    <script src="../app/login.js"></script>
   </body>
 </html>
