@@ -68,12 +68,18 @@
     </section>
     <section class="login-form">
       <form action="">
-        <label for="email" name="email">E-mail</label>
-        <input type="email" />
-        <label for="text" name="email">Mot de passe </label>
-        <input type="text" />
-        <button>Connection</button>
+        <label for="email" name="email" >E-mail</label>
+        <input type="email" id="loginEmail"/>
+        <p class='errorPara' id='logparaErr'></p>
+        <label for="text" name="email" >Mot de passe </label>
+        <input type="password"  id="loginPass"/>
+        <p class='errorPara' id='logpassErr'></p>
+
+
       </form>
+      <button onclick='handleSubmit()'>
+        Connection
+      </button>
     </section>
     <footer>
       <div class="footer-container">
